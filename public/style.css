@@ -57,3 +57,28 @@ ul,ol{
 .nav li:hover > ul{
     display: block;
 }
+
+h3{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+h4{
+    font-size: 40px;
+    color: rgb(68, 68, 68);
+    text-align: center;
+}
+
+.fotoPrimera,
+.fotoSegunda,
+.fotoTercera{
+    width: 400px;
+}
+
+.tituloPrimera,
+.tituloSegunda,
+.tituloTercera{
+    color:rgb(3, 73, 3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}

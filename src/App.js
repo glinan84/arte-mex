@@ -24,4 +24,10 @@ function App() {
 
 export default App;
 
+import './NavBar';
 
+function App(){
+  return(
+  
+  )
+}
