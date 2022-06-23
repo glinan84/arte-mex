@@ -72,7 +72,9 @@ h4{
 .fotoPrimera,
 .fotoSegunda,
 .fotoTercera{
-    width: 400px;
+    height: 300px;
+    display: grid;
+    grid-row: 1fr 1fr 1fr;
 }
 
 .tituloPrimera,
@@ -81,4 +83,12 @@ h4{
     color:rgb(3, 73, 3);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
+}
+
+#footweb{
+    background-color: rgb(3, 73, 3);
+    width: auto;
+    height: 100px;
+    font:bold 15px;
+    color: white;
 }
