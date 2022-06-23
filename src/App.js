@@ -25,9 +25,21 @@ function App() {
 export default App;
 
 import './NavBar';
+import react, { Component } anyimport { from } from '../node_modules/react'
 
+/*
 function App(){
   return(
-  
+    <h2>LANZMIENTOS JUNIO 2022</h2>
+    <h3>No te pierdas piezas únicas a la venta</h3>
+  )
+}
+*/
+
+const App = (props) => {
+  return (
+    <p>
+      Aprovechemos las ofertas de lanzamientos {props.name}!
+    </p>
   )
 }
